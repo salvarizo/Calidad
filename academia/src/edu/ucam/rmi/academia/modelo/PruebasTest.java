@@ -70,7 +70,7 @@ public class PruebasTest {
 		// Identificador test
 		String id="52C";
 		// Llamada al assert
-		assertTrue(id==curso1.getId());
+		assertTrue(id!=curso1.getId());
 	}
 	
 	
